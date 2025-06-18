@@ -74,5 +74,5 @@ def get_prompt(length, language, tag):
     return prompt
 
 if __name__ == "__main__":
-    api_key = "sk-rPj5FRVUHkzXjSMT2kJc25FD6vSzFnyTInNKWIGZtLfa9brA"  # Replace with your API key
+    api_key = "Your Api key"  # Replace with your API key
     post_text, image_path = generate_post("Medium", "English", "Mental Health", api_key)
