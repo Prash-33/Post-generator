@@ -52,20 +52,31 @@ This project is a LinkedIn Post Generator that leverages the power of LLaMA 3.1 
 ```bash
 git clone https://github.com/yourusername/project-genai-post-generator.git
 cd project-genai-post-generator
-
+```
+### 2: Create a Virtual Environment:
+1.Run the following command to create a virtual environment:
+```bash
 python -m venv venv
-venv\Scripts\activate  # For Windows
-# or
-source venv/bin/activate  # For macOS/Linux
 
+```
+### Step 3: Activate the Virtual Environment
+
+Depending on your OS, run one of the following:
+
+```bash
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+```
+### Step 4: Install the Required Dependencies
+
+```bash
 pip install -r requirements.txt
-
-#### Running
-
-streamlit run main.py
-
-##### Project Structure
-
+```
+### Project Structure
+```bash
 project-genai-post-generator/
 │
 ├── main.py                  # Streamlit frontend logic
@@ -81,3 +92,4 @@ project-genai-post-generator/
     ├── .env                 # API keys and config
     ├── raw_posts.json       # Sample input data
     └── processed_posts.json # Generated posts
+
