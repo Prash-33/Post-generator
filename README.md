@@ -60,11 +60,11 @@ source venv/bin/activate  # For macOS/Linux
 
 pip install -r requirements.txt
 
-### Running
+#### Running
 
 streamlit run main.py
 
-### Project Structure
+##### Project Structure
 
 project-genai-post-generator/
 │
