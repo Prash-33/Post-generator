@@ -47,7 +47,7 @@ This project is a LinkedIn Post Generator that leverages the power of LLaMA 3.1 
 
 ### Installation
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/project-genai-post-generator.git
@@ -74,6 +74,10 @@ source venv/bin/activate
 
 ```bash
 pip install -r requirements.txt
+```
+### Running the Application
+```bash
+streamlit rum main.py
 ```
 ### Project Structure
 ```bash
