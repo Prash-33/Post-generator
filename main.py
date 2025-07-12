@@ -31,7 +31,7 @@ def main():
 
     # Generate Button
     if st.button("Generate"):
-        api_key = "sk-rPj5FRVUHkzXjSMT2kJc25FD6vSzFnyTInNKWIGZtLfa9brA"
+        api_key = "Your api key"
         post_text, image_path = generate_post(selected_length, selected_language, selected_tag, api_key)
 
         # Display Post Text
